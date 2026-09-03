@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CineWorld - Movie Hub</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="logo">
+      🎬 Cine<span>World</span>
+    </div>
+
+    <button id="menuBtn">☰</button>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#movies">Movies</a>
+      <a href="#genres">Genres</a>
+    </nav>
+  </header>
+
+
+  <!-- HERO SECTION -->
+  <main id="home">
+
+    <section class="hero">
+      <div>
+
+        <p class="tag">WELCOME TO CINEWORLD</p>
+
+        <h1>
+          Discover your next
+          <span>favorite movie.</span>
+        </h1>
+
+        <p>
+          Explore movie information, ratings, genres and
+          official trailers in one place.
+        </p>
+
+        <a class="btn" href="#movies">
+          Explore Movies
+        </a>
+
+      </div>
+    </section>
+
+
+    <!-- SEARCH -->
+    <section class="searchBox">
+
+      <input
+        id="search"
+        type="search"
+        placeholder="Search movies..."
+      >
+
+    </section>
+
+
+    <!-- MOVIES -->
+    <section id="movies">
+
+      <div class="sectionTitle">
+
+        <h2>Featured Movies</h2>
+
+        <span id="count"></span>
+
+      </div>
+
+      <div id="movieGrid" class="grid"></div>
+
+    </section>
+
+
+    <!-- GENRES -->
+    <section id="genres" class="genres">
+
+      <h2>Browse Genres</h2>
+
+      <div class="genreList">
+
+        <button>Action</button>
+        <button>Comedy</button>
+        <button>Drama</button>
+        <button>Animation</button>
+        <button>Thriller</button>
+        <button>Sci-Fi</button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <strong>🎬 CineWorld</strong>
+
+    <p>
+      Movie information & official trailer discovery platform.
+    </p>
+
+    <small>
+      © 2026 CineWorld
+    </small>
+
+  </footer>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
